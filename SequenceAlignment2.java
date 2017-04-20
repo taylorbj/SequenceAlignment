@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class SequenceAlignment2 {
 
 	public static void main(String[] args) {
-		int gap = -1;
+	    int gap = -1;
 		
 	    Scanner in = new Scanner(System.in);
         
 	    /*
-        String str1 = in.nextLine();
-        String str2 = in.nextLine();
+            String str1 = in.nextLine();
+            String str2 = in.nextLine();
         
  
-		char dnaSeq1[] = str1.toCharArray();
-		char dnaSeq2[] = str2.toCharArray();
+	    char dnaSeq1[] = str1.toCharArray();
+	    char dnaSeq2[] = str2.toCharArray();
 		*/
 	    char dnaSeq1[] = {'A', 'C', 'G', 'C', 'C', 'G'};
 		char dnaSeq2[] = {'A', 'C', 'C', 'A', 'C', 'G'};
